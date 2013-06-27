@@ -1,0 +1,4 @@
+#!/bin/bash
+q="$@"
+python $DBSCMD_HOME/dbsCommandLine.py -c search --query="${q}" 
+#python $DBSCMD_HOME/dbsCommandLine.py -c search --query="$@"
